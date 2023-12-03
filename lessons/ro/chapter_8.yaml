@@ -10,3 +10,12 @@
 
     În capitolul acesta o să ne focusăm în mare parte pe introducerea unor concepte utile și vom vedea
     cum funcționează și cum să le folosim!"
+- title: Revizitam Referintele
+  content_markdown: >
+    O referință în mod fundamental, este doar un număr ce reține poziția
+    de start a unor bytes în memorie. Singurul ei scop este să reprezinte conceptul unei locații
+    unde poți găsi datele unui tip existent specific.
+
+
+    Acum poate te întrebi, care e diferența dintre o referință și doar un număr. Rust va asigura faptul că
+    durata de viață a referințelor nu va dura mai mult decât cea a celui referențiat (Altfel am primi o eroare dacă am folosi-o!)
